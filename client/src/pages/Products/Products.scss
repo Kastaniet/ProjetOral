@@ -1,0 +1,53 @@
+.products {
+    padding: 30px 50px;
+    display: flex;
+
+    .left {
+        flex: 1;
+        position: sticky;
+        height: 100%;
+        top: 500px;
+
+        .filterItem{
+            margin-bottom: 30px;
+
+            h2{
+                font-weight: 400;
+                margin-bottom: 20px;
+            }
+
+            .inputItem{
+                margin-bottom: 10px;
+                label{
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+
+    .right {
+        flex: 3;
+
+        .catImg{
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            margin-bottom: 50px;
+        }
+
+        button {
+            width: 250px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            border: none;
+            cursor: pointer;
+            background-color: #2879fe;
+            color: white;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+    }
+}
