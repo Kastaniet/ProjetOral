@@ -1,2 +1,2 @@
 # Redirects from what the browser requests to what we serve
-/*    client/public/index.html  200
+/*    /client/public/index.html  200
